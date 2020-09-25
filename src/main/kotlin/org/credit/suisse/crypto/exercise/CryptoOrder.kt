@@ -1,4 +1,4 @@
-package org.credit.suisse.crypto.excercise
+package org.credit.suisse.crypto.exercise
 
 import java.math.BigDecimal
 import java.util.*

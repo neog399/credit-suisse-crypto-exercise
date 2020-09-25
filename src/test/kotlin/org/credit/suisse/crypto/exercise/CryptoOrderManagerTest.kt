@@ -1,8 +1,7 @@
-package org.credit.suisse.crypto.excercise
+package org.credit.suisse.crypto.exercise
 
 import org.javamoney.moneta.Money
 import org.junit.jupiter.api.Assertions.assertEquals
-import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Test
 import java.math.BigDecimal
 
