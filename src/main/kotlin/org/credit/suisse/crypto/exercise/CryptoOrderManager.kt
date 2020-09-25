@@ -16,6 +16,7 @@ class CryptoOrderManager {
             .build()
     )
 
+    // Change this to a thread-safe map (e.g. ConcurrentHashMap) for multi-threaded access
     private val orders: MutableMap<UUID, CryptoOrder> = mutableMapOf()
 
     // Add validation? is coin type supported, is the quantity and price between accepted thresholds, etc.
